@@ -1,2 +1,2 @@
 # ShiChengUW.github.io
-my homepage
+Shi Cheng
