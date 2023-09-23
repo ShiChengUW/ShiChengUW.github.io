@@ -71,7 +71,10 @@
 	String Math 2022, Warsaw, Poland </p>	  
 <p>    27-08-2021, <i> 3d N=2 brane webs and quivers</i>,
 <a href="https://www.imperial.ac.uk/theoretical-physics/seminars/quiver-meetings/" target="_blank">Quiver meetings</a>, Imperial College London, UK               </p>	
-	  <p>28-04-2021, <i>3d N = 2 mirror symmetry and mixed Chern-Simons levels</i>, IAS, Soochow University, China
+
+	   <span id="more">
+		   
+	   <p>28-04-2021, <i>3d N = 2 mirror symmetry and mixed Chern-Simons levels</i>, IAS, Soochow University, China
   </p>
 	  <p>20-04-2021, <i>Mixed Chern-Simons levels and strip geometry for abelian 3d N=2 theories </i>(<a href="https://shichenguw.github.io/slides/april 20.pdf" target="_blank">Slides</a>), String theory journal club, University of Warsaw, Poland
 		  </p>
@@ -80,8 +83,11 @@
 	  <p>05-11-2019, <i>From JT gravity to a matrix model</i>,
 	String theory journal club, University of Warsaw, Poland
 		  </p>
-	  
-	  
+	
+	   </span>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+		   
      
  <h2 style="color:darkblue;">  Notes </h2>
 
@@ -113,5 +119,26 @@
     <p> My father's work on <a href="https://shichenguw.github.io/myfather.html" target="_blank">braids</a> and knots</a> (not the scientific ones). </p>
 
 <p>  </p>
+
+
+
+	   
+	   <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
 </body>
 </html>
